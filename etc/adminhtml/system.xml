@@ -11,7 +11,7 @@
         <tab id="schatzmann" translate="label" sortOrder="900" class="schatzmann-tab">
             <label>Schatzmann</label>
         </tab>
-        <section id="base" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="base" translate="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
             <label>Base</label>
             <tab>schatzmann</tab>
