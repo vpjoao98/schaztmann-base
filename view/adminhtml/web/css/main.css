@@ -1,0 +1,8 @@
+.config-nav-block.schatzmann-tab strong:before {
+    content: '\2720';
+    display: inline-block;
+    margin-right: 12px;
+    color: black;
+    font-size: 16px;
+    vertical-align: middle;
+}
