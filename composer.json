@@ -1,5 +1,5 @@
 {
-    "name": "schatzmann/base",
+    "name": "schatzmann/module-base",
     "description": "Schatzmann Base",
     "require": {
         "php": "^7.2.0"
