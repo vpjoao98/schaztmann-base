@@ -13,10 +13,10 @@ This module will provide common functionalities to other Schatzmann extensions. 
 <summary>Copy to Clipboard</summary>
 <p>
 
-1. ###### Description
+1. ##### Description
 The main objective of this component is to provide a way to automatic "click and copy" text from some inputs.
 
-2.  ###### Structure
+2.  ##### Structure
 As a custom Ui Component, it can be declared anywhere and its main functionality is defined by a .js file
 
 - ``` Schatzmann_Base/view/frontend/web/js/view/copy-to-clipboard.js ```
@@ -25,7 +25,7 @@ and a template file that will be rendered once the component is called
 
 - ``` Schatzmann_Base/view/frontend/web/template/view/copy-to-clipboard.html ```
 
-3. ###### Example
+3. ##### Example
 
 ```
     <form id="my-form">
@@ -56,7 +56,7 @@ and a template file that will be rendered once the component is called
     </form>
 ```
 
-4. ###### Notes
+4. ##### Notes
 
 - While declaring the component, the "target" argument is required. This argument will be the **id** or **class** of the input that will be copied.
 
