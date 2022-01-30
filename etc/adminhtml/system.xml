@@ -11,14 +11,13 @@
         <tab id="schatzmann" translate="label" sortOrder="900" class="schatzmann-tab">
             <label>Schatzmann</label>
         </tab>
-        <section id="base" translate="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
-            <class>separator-top</class>
+        <section id="schatzmann_base" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Base</label>
             <tab>schatzmann</tab>
             <resource>Schatzmann_Base::base_config</resource>
-            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+            <group id="general" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
-                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                <field id="enable" translate="label" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enable Schatzmann Extensions</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
