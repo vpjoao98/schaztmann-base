@@ -5,8 +5,4 @@
  * @package Base
  */
  -->
-<div class="copy-to-clipboard" data-bind="if: hasTarget">
-    <div class="actions-toolbar ">
-        <span class="action secondary" data-bind="text: placeholder, attr: {'data-copy-target': target}, click: copyToClipboard"></span>
-    </div>
-</div>
+<button type="button" class="action copy primary" data-bind="text: placeholder, attr: {'data-copy-target': target}, click: copyToClipboard"></button>
