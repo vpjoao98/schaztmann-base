@@ -1,6 +1,8 @@
 {
     "name": "schatzmann/module-base",
     "description": "Schatzmann Base",
+    "type": "magento2-module",
+    "license": "proprietary",
     "authors": [
         {
             "email": "vpjoao98@gmail.com",
@@ -10,10 +12,6 @@
     "require": {
         "php": ">=7.3"
     },
-    "type": "magento2-module",
-    "version": "1.0.1",
-    "license": "proprietary",
-    "minimum-stability": "dev",
     "autoload": {
         "files": [
             "registration.php"
