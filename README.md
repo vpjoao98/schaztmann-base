@@ -44,6 +44,7 @@ and a template file that will be rendered once the component is called
                                         "copy-to-clipboard": {
                                             "component": "Schatzmann_Base/js/view/copy-to-clipboard",
                                             "target": "#my-custom-input"
+                                            "placeholderText": "<?= $escaper->escapeHtml(__('My Custom Placeholder')) ?>"
                                         }
                                     }
                                 }
@@ -61,6 +62,8 @@ and a template file that will be rendered once the component is called
 - While declaring the component, the "target" argument is required. This argument will be the **id** or **class** of the input that will be copied.
 
 - When declaring multiple inputs that will have this feature, always call separated components to make sure that they will not conflict.
+
+- The two arguments that this component accepts is **target** and **placeholderText**.
 
 </details>
 
